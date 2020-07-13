@@ -164,6 +164,7 @@ Then configure the bundle to your needs, for example:
 
     jane_auto_mapper:
       autoregister: true
+      date_time_format: !php/const \DateTimeInterface::RFC3339_EXTENDED
       mappings:
         - source: Jane\AutoMapper\Bundle\Tests\Fixtures\User
           target: Jane\AutoMapper\Tests\Fixtures\UserDTO
